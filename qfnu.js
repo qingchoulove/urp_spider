@@ -53,7 +53,6 @@ export async function getInfo(userId, cookie) {
     'institute': tableMajor.find('td').eq(1).text(),
     'major': tableInstitute.find('td').eq(1).text()
   };
-  console.log(info);
   return info;
 }
 /**
@@ -86,8 +85,8 @@ export async function login(userId, password) {
         'Cookie': cookie[0]
       },
       data: {
-        username: '2012416747',
-        password: '930528',
+        username: userId,
+        password: password,
         lt: ltKey[0],
         execution: 'e1s1',
         _eventId: 'submit',

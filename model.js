@@ -6,7 +6,10 @@ const Schema = mongoose.Schema;
 
 let InfoSchema = new Schema({
   id: String,
-  std_id: Number,
+  std_id: {
+    type: Number,
+    unique: true
+  },
   name: String,
   after: String,
   nation: String,
