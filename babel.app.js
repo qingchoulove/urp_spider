@@ -3,6 +3,6 @@ require('babel-core/register')({
         'es2015',
         'stage-0'
     ]
-});
-require('babel-polyfill');
-require('./queue.js');
+})
+require('babel-polyfill')
+require('./queue.js')

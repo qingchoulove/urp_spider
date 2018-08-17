@@ -14,7 +14,8 @@
     "cheerio": "^0.22.0",
     "iconv-lite": "^0.4.13",
     "mongoose": "^4.6.0",
-    "request": "^2.74.0"
+    "request": "^2.74.0",
+    "sleep": "^5.2.3"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
